@@ -24,7 +24,7 @@ HOW TO USE:
         - open a shell and run this .py file.
         - Wait till the program ends.
 
-+======================================[DEV NOTES]======================================+
++================================[DEV NOTES]=================================+
 
 ITERATION 1:
 
@@ -32,5 +32,5 @@ ITERATION 1:
     - Used pynput library to mimic the required keystrokes.
     - Had to introduce a time delay between each search, cause sometimes edge doesnt award you points if you do quick searches.
 
-+====================================================================================+
++=========================================================================+
 

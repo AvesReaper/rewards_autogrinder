@@ -20,13 +20,19 @@ HOW TO USE:
         - Go to chatgpt/ any AI of your choice. Type in the following: 
             "GIVE ME A PYTHON LIST OF STRING. THESE SEARCH PHRASES(STRINGS) MUSTN'T BE OF SAME TOPIC.THESE STRINGS MUST ATLEAST HAVE 3 WORDS. NUMBER OF SUCH STRINGS MUST BE 30."
         - Copy that list and replace "search_strings" in code.
-        - Close all other window/application in foreground. Have edge alone open.
         - Open a shell and run this .py file.
         - Wait till the program ends.
 
 +================================[DEV NOTES]=================================+
 
-ITERATION 1:
+LATEST ITERATION(2.0):
+
+    - Remember the burden of closing al other desktop apps in foreground and keeping only edge open? Well no need to go throught 
+    with it anymore.
+    - Made use "subprocess" library to intiate msedge process and similarly terminate after task completion.
+    - Used subprocess.run() and subprocess.terminate() which seemed to do the necessary.
+
+ITERATION 1.0:
 
     - My naive approach, involved just taking a list of strings, which needs to be replaced on a daily basis.
     - Used pynput library to mimic the required keystrokes.

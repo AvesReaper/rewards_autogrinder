@@ -32,6 +32,7 @@ LATEST ITERATION(2.0):
     - Made use "subprocess" library to intiate msedge process and similarly terminate after task completion.
     - Used subprocess.run() and subprocess.terminate() which seemed to do the necessary.
 +============================================================================+
+
 ITERATION 1.0:
 
     - My naive approach, involved just taking a list of strings, which needs to be replaced on a daily basis.

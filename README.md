@@ -31,7 +31,8 @@ LATEST ITERATION(2.0):
     with it anymore.
     - Made use "subprocess" library to intiate msedge process and similarly terminate after task completion.
     - Used subprocess.run() and subprocess.terminate() which seemed to do the necessary.
-+============================================================================+
+
++=========================================================================+
 
 ITERATION 1.0:
 

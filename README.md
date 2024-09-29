@@ -60,7 +60,7 @@
 
 `bat: grinder.bat "query1" "query2"` 
 
-# +============[DEV NOTES]===========+
+# +=============[DEV NOTES]============+
 
 ## LATEST ITERATION (3.0):
 

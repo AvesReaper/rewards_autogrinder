@@ -60,7 +60,7 @@
 
 `bat: grinder.bat "query1" "query2"` 
 
-# +==================[DEV NOTES]=================+
+# +==============[DEV NOTES]=============+
 
 ## LATEST ITERATION (3.0):
 
@@ -68,7 +68,7 @@
     - New scripts(.sh and .bat) were added to perform search automation for mobile searches.
     - Mostly relied on adb shell commands to simulate the touch inputs.
 
-## +==========================================================+
+## +===============================================+
 
 ## ITERATION 2.0:
 
@@ -77,7 +77,7 @@
     - Made use "subprocess" library to intiate msedge process and similarly terminate after task completion.
     - Used subprocess.run() and subprocess.terminate() which seemed to do the necessary.
 
-## +==========================================================+
+## +===============================================+
 
 ## ITERATION 1.0:
 
@@ -85,5 +85,5 @@
     - Used pynput library to mimic the required keystrokes.
     - Had to introduce a time delay between each search, cause sometimes edge doesnt award you points if you do quick searches.
 
-## +==========================================================+
+## +===============================================+
 

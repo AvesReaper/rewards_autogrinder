@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH=$PATH:/path/to/adb-folder
+export PATH=$PATH/path/to/your/platform-tools
 
 if [ "$#" -lt 1 ]; then
     echo "Usage: $0 <search_query_1> <search_query_2> ... <search_query_N>"

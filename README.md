@@ -13,7 +13,8 @@ WHAT IT DOES?
 
 HOW TO USE:
 
-    PC:
+PC:
+
         PREREQUISITES:
             - Need a Microsoft account signed up for rewards program.
             - Microsoft edge installed.
@@ -23,21 +24,34 @@ HOW TO USE:
             - Copy that list and replace "search_strings" in code.
             - Open a shell and run this .py file.
             - Wait till the program ends.
-    ANDROID:
+ANDROID:
+
         PREREQUISITES:
-            - Need a PC with adb installed. Use the following link: 
+            - Need a PC with adb installed. Use the following link:
+[ADB Installation GUIDE](https://www.xda-developers.com/install-adb-windows-macos-linux/)
+
             - An android phone, with bing app installed and your microsoft account logged in.
             - Developer options enabled (USB Debugging).
         STEPS:
             .sh or.bat:
                 - Open the script make sure you change the path needed to access adb
-                - On your android device, got to developer options in settings and enable : "Pointer Location" to identify the coordinates for search field of bing:
+                - On your android device, got to developer options in settings and enable "Pointer Location":
+<img src = "images/pointer_enable.jpg" width="500" height ="500">
+        
+                - Now open bing and get a coordiante within the specified regions as shown in the below images:
+<img src = "images/1st_coordinate.jpg" width="500" height ="500">
+<img src = "images/2nd_coordinate.jpg" width="500" height ="500">
 
-                - Now open bing and get the following coordinates as shown in the below images:
+                - Replace the 1st_coordinate in the "if" condtion, and the 2nd_coordinate in the remaining spots as shown:\
+<img src = "images/coordinates.png" width="500" height ="500">
 
-                - Replace the 1st_coordinate in the "if" condtion, and the 2nd_coordinate in the remaining spots as shown:
+                - Once you replace the coordinates and path for adb you are good to run the scripts.
+                - Use 20 queries.
+SAMPLE RUN: 
                     
+`./grinder.sh "query1" "query2"` 
 
+`bat: grinder.bat "query1" "query2"` 
 
 +================================[DEV NOTES]=================================+
 
